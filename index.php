@@ -12,11 +12,19 @@ $username = "Guest";
 </head>
 <body>
 
-<div class="container">
-    <h1>Welcome, <?php echo htmlspecialchars($username); ?>!</h1>
-    <p>You have successfully loaded your PHP welcome page.</p>
-    <a href="home.html" class="button">Continue</a>
-</div>
+<header>
+    <h1>Welcome to My Demo Site</h1>
+</header>
+
+<main class="welcome-card">
+    <h2>Hello, <?php echo htmlspecialchars($username); ?>!</h2>
+    <p>We’re glad you’re here! Explore the site and have fun learning.</p>
+    <button onclick="window.location.href='home.html'">Get Started</button>
+</main>
+
+<footer>
+    <small>&copy; <?php echo date("Y"); ?> Demo Site</small>
+</footer>
 
 </body>
 </html>
