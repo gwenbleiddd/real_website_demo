@@ -15,7 +15,7 @@ $username = "Guest";
 <div class="container">
     <h1>Welcome, <?php echo htmlspecialchars($username); ?>!</h1>
     <p>You have successfully loaded your PHP welcome page.</p>
-    <a href="#" class="button">Continue</a>
+    <a href="home.html" class="button">Continue</a>
 </div>
 
 </body>
