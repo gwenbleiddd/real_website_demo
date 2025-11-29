@@ -13,7 +13,7 @@ $username = "Guest";
 <body>
 
 <header>
-    <h1>Welcome to My Demo Site</h1>
+    <img src="images/banner.jpg" alt="bannerImage">
 </header>
 
 <main class="welcome-card">
